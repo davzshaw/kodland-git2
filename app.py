@@ -6,9 +6,9 @@ print(suma(3, 5))
 
 
 # Esta función le corresponde a: 2
-def saludar(nombre)
-    print("nombre hola")
-
+def saludar(nombre):
+    print(f"{nombre} hola")
+    
 saludar("María")
 
 
