@@ -1,5 +1,7 @@
 # Esta función le corresponde a: 4
+
 def suma(a, b):
+    suma = (a + b)
     return resultado
 
 print(suma(3, 5))
