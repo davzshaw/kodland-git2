@@ -21,8 +21,9 @@ contar_hasta(5)
 
 
 # Esta función le corresponde a: 3
-def mensaje(times):
-    for _ in range(i)
-        print("Hola muno)
+def mensaje():
+    tiempo = int(input("Ingrese el número de veces que desea imprimir Hola mundo: "))
+    for i in range(tiempo):
+        print("Hola mundo")
 
 mensaje()
