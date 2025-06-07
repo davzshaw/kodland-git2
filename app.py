@@ -29,3 +29,13 @@ def mensaje():
         print("Hola mundo")
 
 mensaje()
+
+
+# Esta función le corresponde a: 5 (David)
+# FUNCION NUEVA
+def factorial(n):
+    if n in [0,1] or n < 0:
+        return 1
+    return factorial(n-1)*factorial(n-2)
+
+print(factorial(5))
