@@ -16,8 +16,8 @@ saludar("María")
 
 # Esta función le corresponde a: 1
 def contar_hasta(n):
-    for x in range(m):
-        print(i)
+    for n in range(n):
+        print(n)
 
 contar_hasta(5)
 
