@@ -1,11 +1,28 @@
-def sumar_numeros():
-     try:
-          numero_1 = int(input("Introduce el primer número: "))
-          numero_2 = int(input("Introduce el segundo número: "))
-          return numero_1 + numero_2
-      except ValueError:
-          print("Error: Por favor, introduce solo números.")
+# Esta función le corresponde a: 4
+def suma(a, b):
+    return resultado
 
-resultado = sumar_numeros()
-if resultado is not None:
-     print("Resultado de la suma:", resultado)
+print(suma(3, 5))
+
+
+# Esta función le corresponde a: 2
+def saludar(nombre)
+    print("nombre hola")
+
+saludar("María")
+
+
+# Esta función le corresponde a: 1
+def contar_hasta(n):
+    for x in range(m):
+        print(i)
+
+contar_hasta(5)
+
+
+# Esta función le corresponde a: 3
+def mensaje(times):
+    for _ in range(i)
+        print("Hola muno)
+
+mensaje()
