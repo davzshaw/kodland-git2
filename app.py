@@ -1,8 +1,8 @@
 # Esta función le corresponde a: 4
 
 def suma(a, b):
-    suma = (a + b)
-    return resultado
+    sumas = (a + b)
+    return sumas
 
 print(suma(3, 5))
 
