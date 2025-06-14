@@ -3,6 +3,8 @@ def agregarTarea(titulo, fecha):
     tarea = {"titulo": titulo, "fecha": fecha, "completada": False}
     listaTareas.append(tarea)
     print("Tarea agregada exitosamente")
+
+# Las listas empiezan a contar desde el índice 0, por lo que al usar el +1 estamos intentando acceder a una posición que no existe.
 def mostrarTareas():
     print("Tareas:")
     for i in range(0, len(listaTareas) + 1):
